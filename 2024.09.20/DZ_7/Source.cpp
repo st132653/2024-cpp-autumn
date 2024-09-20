@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-	int v = 0; //Задачка с мотоциклом
+	int v = 0; //7th one
 	int t = 0;
 	scanf_s("%d", &v);
 	scanf_s("%d", &t);

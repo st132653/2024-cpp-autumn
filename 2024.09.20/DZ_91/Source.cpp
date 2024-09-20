@@ -10,6 +10,6 @@ int main(int argc, char* argv[]) {
 	scanf_s("%d", &b);
 	int p = a - b;
 	int t = (h / p) - b;
-	printf("%d", t); //для части комбинаций работает, осталось только методику получше придумать ;-)
-	return EXIT_SUCCESS; //просили скинуть дз до субботы. dictum factum
+	printf("%d", t); //works for several combinations only :-(, I'll try some other methods ;-)
+	return EXIT_SUCCESS; //you asked us to send the homehomework until saturday, but I had some problems with git
 }

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-	int a = 0; //задачка с кораблем
+	int a = 0; //4th one
 	int b = 0;
 	int c = 0;
 	scanf_s("%d", &a);

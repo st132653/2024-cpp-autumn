@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-	int a = 0; //задачка со сложением
+	int a = 0; //1st one
 	int b = 0;
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
