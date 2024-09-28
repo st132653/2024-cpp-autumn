@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
 	int q = a - b;
-	int t = (h - a + q - 1) / q + 1;
+	int t = (h - b - 1) / q + 1;
 	printf("%d", t);
 	return EXIT_SUCCESS;
 }
