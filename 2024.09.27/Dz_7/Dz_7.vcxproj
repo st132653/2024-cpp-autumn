@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{5575531e-e790-49ae-8d14-8e0bfb1c5c72}</ProjectGuid>
-    <RootNamespace>Dz7</RootNamespace>
+    <RootNamespace>DZ7</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>DZ_7</ProjectName>
   </PropertyGroup>
