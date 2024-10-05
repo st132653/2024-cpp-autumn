@@ -1,25 +1,14 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-	int a = 0;
-	int b = 0;
-	scanf_s("%d %d", &a, &b);
-	int b0 = b;
-	int a0 = a;
-	if (a == 0 || b % a == 0) {
-		printf("%d", 1);
-	}
-	else {
-		while (b != 0) {
-			int c = b;
-			b = a % b;
-			a = c;
-			if (b == 0) {
-				int lcm = a0 * b0 / a;
-				printf("%d", lcm / b0);
-				return 0;
-			}
+	int fi(int n) {
+		if (n <= 1) {
+			return n;
 		}
+		return fi(n - 1) + fi(n - 2);
 	}
+	int n = 0;
+	scanf_s("%d", &n);
+	printf("%d", fi(n));
 	return EXIT_SUCCESS;
 }
