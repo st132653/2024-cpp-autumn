@@ -13,7 +13,7 @@ void addE(int*& a, int& snum, int anum) {
 void addS(int*& a, int& snum, int anum) {
 	int* newa = (int*)malloc((snum + 1) * sizeof(int));
 	*(newa+0) = anum;
-	for (int i = 0; i < snum; i++) {
+	for (int i = 0; i < snum; ++i) {
 		*(newa + i+1) = *(a + i);
 	}
 	free(a);
@@ -26,7 +26,7 @@ void remE(int*& a, int& snum) {
 		return;
 	}
 	int* newa = (int*)malloc((snum - 1) * sizeof(int));
-	for (int i = 0; i < snum - 1; i++) {
+	for (int i = 0; i < snum - 1; ++i) {
 		*(newa + i) = *(a + i);
 	}
 	free(a);
