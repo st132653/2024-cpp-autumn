@@ -1,0 +1,5 @@
+gfortran -c polynomial.f90
+gfortran -c main.f90
+gfortran -c main.f90 polynomial.f90
+gfortran -o main main.o polynomial.o
+rm -f *.o
